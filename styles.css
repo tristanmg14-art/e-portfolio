@@ -171,9 +171,19 @@ padding-top: 8px;
     max-width: 100px;
 }
 
+.language {
+    width: 25%;
+}
+
 .language__img--wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    width:25%;
+    padding: 25px 16px;
+}
+
+.language__list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
 }
