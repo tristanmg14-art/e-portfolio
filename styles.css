@@ -214,6 +214,14 @@ padding-top: 8px;
 
 /*PROJECTS */
 
+.project {
+    margin-bottom: 135px;
+}
+
+.project:last-child {
+    margin-bottom: 40px;
+}
+
 .project__img {
     width: 100%;
     transition: all 500ms ease;
