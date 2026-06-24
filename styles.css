@@ -306,10 +306,6 @@ footer {
     background-color: #242424;
 }
 
-.footer__logo {
-    margin-bottom: 20px;
-}
-
 .footer__social--list {
     width: 100%;
     max-width: 500px;
@@ -332,6 +328,19 @@ footer {
 }
 
 .footer__social--link,
-.footer__copyright {
-    color: white
+.footer__copyright,
+.footer__logo--popper {
+    color: #fff
+}
+
+.footer__logo--popper {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    font-weight: 700;
+}
+
+.footer__anchor {
+    position: relative;
+    margin-bottom: 20px;
 }
