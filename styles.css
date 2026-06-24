@@ -338,9 +338,16 @@ footer {
     right: 0;
     top: 30px;
     font-weight: 700;
+    opacity: 0;
+    transition: all 300ms ease;
 }
 
 .footer__anchor {
     position: relative;
     margin-bottom: 20px;
+}
+
+.footer__anchor:hover .footer__logo--popper {
+    transform: translateX(60px);
+    opacity: 1;
 }
